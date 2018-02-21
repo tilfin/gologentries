@@ -19,6 +19,10 @@ $ GOOS=linux GOARCH=arm go build -o gologentries main.go
 $ tail -F /var/log/application.log | LE_TOKEN=xxxx-xxxx-xxx-xxxx ./gologentries
 ```
 
+## Add a log to Logentries
+
+Make a Token TCP referencing [Adding a Log | Logentries](https://docs.logentries.com/docs/setup-first-log)
+
 ## Logentries screenshot
 
 Logentries receiving raw logs from stdin
